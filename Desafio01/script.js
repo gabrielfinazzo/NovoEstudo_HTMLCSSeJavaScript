@@ -91,10 +91,13 @@ while (numero >= 0) {
 } */
 
 //Desafio 9
-let numero = prompt('Digite um número: ')
+/* let numero = prompt('Digite um número: ')
 let contagem = 0;
 while (numero >= contagem) {
     alert(contagem)
     console.log(contagem)
     contagem++
-}
+} */
+
+/* let numeroAleatorio1a3 = parseInt(Math.random() * 3) + 1;
+console.log(numeroAleatorio1a3) */
