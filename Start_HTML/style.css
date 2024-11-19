@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    max-width: 100%;
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url(img/Ruido.png);
+    padding: 2.5rem;
+    border-radius: 2.5rem;
+    color: white;
+    border: 1px solid #1875E8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+
+#numeroChute {
+    width: 5rem;
+}
+
+#button {
+    width: 6rem;
+    text-transform: uppercase;
+}
+
+input {
+    border-radius: 15px;
+    outline: none;
+    padding: 0.5rem;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.formInputs p {
+    padding-bottom: 1.5rem;
+}
+
+.formInputs {
+    padding-bottom: 1.5rem;
+    color: white;
+    cursor: pointer;
+    
+} 
+
+/* body::before {
+    background-image: url(img/code.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0.4;
+}  */
